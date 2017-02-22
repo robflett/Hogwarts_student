@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dumbledore's Student Enrolement Device</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  
+  <div class="navbar">
+    <ul>
+      <li>
+        <a href="/students">View the Students</a>
+       
+      </li>    
+      <li>
+        <a href="/students/new">Add a New Student</a>
+        
+      </li>        
+    </ul>
+  </div>
+
+
+  <%= yield %>
+
+  <div class="image">
+  <a href="/students/new"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hogwarts_coat_of_arms_colored_with_shading.svg/1200px-Hogwarts_coat_of_arms_colored_with_shading.svg.png"></a>
+  </div>
+  
+</body>
+</html>
