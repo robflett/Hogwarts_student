@@ -20,8 +20,8 @@ post '/students' do
   erb(:create)
 end
 
-post '/students/:id' do
-  student = Student.new ( params )
-  student.update
-  redirect to "/students#{student.id}"
-end
+# post '/students/:id' do
+#   student = Student.new ( params )
+#   student.update
+#   redirect to "/students#{student.id}"
+# end

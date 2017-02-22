@@ -10,7 +10,7 @@ CREATE TABLE students(
 );
 
 CREATE TABLE houses(
-  house_id SERIAL4 PRIMARY KEY,
+  id SERIAL4 PRIMARY KEY,
   name VARCHAR(255),
   logo VARCHAR(255)
 );

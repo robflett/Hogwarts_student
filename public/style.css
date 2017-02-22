@@ -32,7 +32,7 @@ font-family: Tahoma;
 }
 
 .image {
-
+  border-radius: 8px;
   text-align: center;
 }
 
@@ -40,4 +40,10 @@ body {
   text-align: center;
   font-family: century;
   background-color: lightblue;
+}
+
+.title {
+
+ font-family: fantasy;
+ font-size: xx-large;
 }
